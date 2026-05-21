@@ -1,0 +1,7 @@
+com\etc\Shristi\model\Product.class
+com\etc\Shristi\config\CorsConfig$1.class
+com\etc\Shristi\config\CorsConfig.class
+com\etc\Shristi\service\ProductService.class
+com\etc\Shristi\repository\ProductRepository.class
+com\etc\Shristi\ShristiApplication.class
+com\etc\Shristi\controller\ProductController.class

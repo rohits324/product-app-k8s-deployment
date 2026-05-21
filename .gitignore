@@ -1,0 +1,10 @@
+## Spring Boot
+#app/target/
+#*.jar
+#
+## Config files
+#src/main/resources/application.properties
+
+# Secrets
+*.env
+k8s/dev/secret.yaml
