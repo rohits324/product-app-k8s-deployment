@@ -1,0 +1,5 @@
+# Created at 2026-05-24T00:58:34.962
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Rohit Dev Projects\K8SApplication\Shristi\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

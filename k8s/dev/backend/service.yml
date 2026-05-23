@@ -1,0 +1,17 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: dev-service
+  namespace: dev-namespace
+
+spec:
+  selector:
+    app: product-app
+
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+#      nodePort: 30080
+
+  type: ClusterIP
