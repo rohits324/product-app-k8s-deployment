@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: dev-springboot-container
-          image: rohitkumar4praja/product-app:v2
+          image: rohitkumar4praja/product-app:v3
 
           ports:
             - containerPort: 8080
@@ -50,7 +50,7 @@ spec:
 
           readinessProbe:
             httpGet:
-              path: /actuator/health
+              path: /api/products
               port: 8080
 
             initialDelaySeconds: 30
@@ -60,7 +60,7 @@ spec:
 
           livenessProbe:
             httpGet:
-              path: /actuator/health
+              path: /api/products
               port: 8080
 
             initialDelaySeconds: 60
