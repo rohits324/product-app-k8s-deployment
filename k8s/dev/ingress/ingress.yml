@@ -9,9 +9,9 @@ spec:
   ingressClassName: nginx
 
   rules:
-    - host: myapp.local
+#    - host: myapp.local
 
-      http:
+     - http:
         paths:
           - path: /
             pathType: Prefix
@@ -20,11 +20,10 @@ spec:
                 name: frontend-service
                 port:
                   number: 80
-                  
           - path: /api
             pathType: Prefix
             backend:
               service:
-                name: backend-service
+                name: dev-service
                 port:
-                  number: 8080
+                  number: 80

@@ -6,7 +6,7 @@ metadata:
 
 spec:
   selector:
-    app: product-app
+    app: frontend-product-app
 
   ports:
     - protocol: TCP

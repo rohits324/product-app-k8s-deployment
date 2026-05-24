@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: dev-springboot-container
-          image: rohitkumar4praja/product-app:v3
+          image: rohitkumar4praja/product-app:v2
 
           ports:
             - containerPort: 8080
