@@ -18,5 +18,6 @@ spec:
       containers:
         - name: frontend-container
           image: rohitkumar4praja/frontend-product:v4
+          imagePullPolicy: Always
           ports:
             - containerPort: 80

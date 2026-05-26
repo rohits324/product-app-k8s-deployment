@@ -28,6 +28,7 @@ spec:
       containers:
         - name: dev-springboot-container
           image: rohitkumar4praja/product-app:v3
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8080
