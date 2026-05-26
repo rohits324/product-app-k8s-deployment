@@ -25,8 +25,7 @@ jobs:
       - name: Build Spring Boot Jar
         run: |
           cd Shristi
-          chmod +x mvnw
-          ./mvnw clean package -DskipTests
+          mvn clean package
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
